@@ -25,7 +25,7 @@ The insights from this analysis informed the design of the Tableau dashboard, en
 - Revenue generally increased across the January-June 2023 period, with the strongest monthly revenue recorded towards the end of the period.
 
 ## Dashboard
-![Coffee Shop Performance Analysis](https://github.com/TimAnderson1/Coffee-Shop-Performance-Project/blob/main/Coffee%20Shop%20Performance%20Dashboard/Dashboard/final_dashboard.png)
+![Coffee Shop Performance Analysis](https://github.com/TimAnderson1/Coffee-Shop-Performance-Project/blob/main/Coffee%20Shop%20Performance%20Dashboard/Dashboard/Updated_Dashboard_2026-09-13%20194706.png)
 *Image of the dashboard from Tableau*
 
 ### Here is a link to this dashboard:
