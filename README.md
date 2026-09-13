@@ -1,7 +1,7 @@
 # Coffee Shop Performance Analysis
 
 ## Project Overview
-This project looks to understand the performance of a coffee shop. The data used spans from January to July 2023.
+This project looks to understand the performance of a coffee shop chain. The data used spans from January to June 2023.
 
 I began by exploring the dataset using SQL to understand its structure and key metrics, including revenue trends, product performance and average order value.
 
@@ -20,12 +20,12 @@ The insights from this analysis informed the design of the Tableau dashboard, en
 
 - Peak sales occur in the morning.
 
-- Products within the coffee category drive the majority of revenue.
+- Products within the coffee category generate the largest share of revenue, accounting for 38.6% of total revenue.
 
-- Revenue has an upward trend over time, signifying positive business growth.
+- Revenue generally increased across the January-June 2023 period, with the strongest monthly revenue recorded towards the end of the period.
 
 ## Dashboard
-![Coffee Shop Performance Dashboard](https://github.com/TimAnderson1/Coffee-Shop-Performance-Project/blob/main/Coffee%20Shop%20Performance%20Dashboard/Dashboard/final_dashboard.png)
+![Coffee Shop Performance Analysis](https://github.com/TimAnderson1/Coffee-Shop-Performance-Project/blob/main/Coffee%20Shop%20Performance%20Dashboard/Dashboard/final_dashboard.png)
 *Image of the dashboard from Tableau*
 
 ### Here is a link to this dashboard:
@@ -212,7 +212,7 @@ FROM
 ```
 
 **Query insight:**
-This query aggregates all orders to calculate average order value, revealing customer spend per transaction. This insight provides an understanding of customer behaviour, and encourages further analysis of how we sell products. It supports strategies such as product bundling, upselling and promotional offers to increase overall revenue.
+This query aggregates all orders to calculate average order value, revealing customer spend per transaction. This insight provides an understanding of customer behaviour, and encourages further analysis of how the business sells products. It supports strategies such as product bundling, upselling and promotional offers to increase overall revenue.
 
 **Query output:**
 | Average Order Value |
