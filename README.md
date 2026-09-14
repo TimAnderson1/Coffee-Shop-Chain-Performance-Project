@@ -35,6 +35,20 @@ The insights from this analysis informed the design of the Tableau dashboard, en
 
 **Dataset scope:** Transactions recorded between 1 January and 30 June 2023 across three New York City store locations.
 
+## Quality Assurance
+
+Headline metrics and project scope were validated against the source data and reconciled across the SQL analysis, Tableau dashboard and README.
+
+Checks included:
+
+- Confirming 149,116 unique transactions from `transaction_id`.
+- Confirming 214,470 total items sold from `transaction_qty`.
+- Reconciling total revenue to $698,812.33.
+- Verifying average transaction value of $4.69 using total revenue divided by unique transactions.
+- Confirming the dataset covers 1 January to 30 June 2023 across three New York City locations.
+- Verifying that the Coffee category generated 38.63% of total revenue and was the largest revenue category.
+- Checking that currency, metric names and date coverage are reported consistently across the analysis and dashboard.
+
 ## Dashboard
 ![Coffee Shop Chain Performance](https://github.com/TimAnderson1/Coffee-Shop-Performance-Project/blob/main/Coffee%20Shop%20Performance%20Dashboard/Dashboard/Updated_Dashboard_2026-09-13%20194706.png)
 *Image of the dashboard from Tableau*
@@ -233,6 +247,13 @@ This query aggregates all orders to calculate average transaction value, reveali
 **Quick insight:**
 
 This result indicates that customer spend per transaction is relatively low, although the data does not support conclusions about typical basket composition.
+
+## Limitations
+
+- The dataset does not include staffing levels, labour costs, queue lengths or service times, so the analysis cannot determine whether additional staffing would improve operational performance or profitability.
+- Each `transaction_id` appears only once in the dataset, so multi-product customer baskets cannot be reconstructed. This limits conclusions about product combinations, cross-selling or typical basket composition.
+- The dataset does not contain a customer identifier, so customer-level behaviour such as repeat purchasing, retention or individual spending patterns cannot be analysed.
+- The analysis covers January to June 2023 only, so conclusions should be interpreted within this six-month period rather than as evidence of longer-term seasonal or annual performance.
 
 ## Recommendations
 
