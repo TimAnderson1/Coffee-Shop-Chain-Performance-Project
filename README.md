@@ -50,7 +50,7 @@ Checks included:
 - Checking that currency, metric names and date coverage are reported consistently across the analysis and dashboard.
 
 ## Dashboard
-![Coffee Shop Chain Performance](https://github.com/TimAnderson1/Coffee-Shop-Performance-Project/blob/main/Coffee%20Shop%20Performance%20Dashboard/Dashboard/Updated_Dashboard_2026-09-13%20194706.png)
+![Coffee Shop Chain Performance](https://github.com/TimAnderson1/Coffee-Shop-Chain-Performance-Project/blob/main/Coffee%20Shop%20Performance%20Dashboard/Dashboard/Updated_Dashboard.png)
 *Image of the dashboard from Tableau*
 
 ### Here is a link to this dashboard:
