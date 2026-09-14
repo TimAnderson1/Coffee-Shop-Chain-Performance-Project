@@ -64,9 +64,9 @@ FROM (
 WHERE
     revenue_rank <= 5;
 
--- Average Order Value Per Day
+-- Average Transaction Value Per Day
 SELECT
-    ROUND(AVG(transaction_qty * unit_price), 2) AS average_order_value
+    ROUND(AVG(transaction_qty * unit_price), 2) AS average_transaction_value
 FROM
     coffee_data
 
